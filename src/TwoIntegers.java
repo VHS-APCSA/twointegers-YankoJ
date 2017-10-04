@@ -50,4 +50,54 @@ public String arithmetic()
 	return helper;
 }
 
+public Integer compare()
+{
+	if (num1>num2) 
+	{
+		return num1;
+	} else if (num1==num2) 
+	{
+		return null;
+	}
+	else 
+	{
+		return num2;
+	}
 }
+public boolean oddOrEvenNum1()
+{
+	if (num1%2 == 0) 
+	{
+		return true;
+	} 
+	else 
+	{
+		return false;
+	}
+
+}
+public boolean oddOrEvenNum2()
+{
+	if (num2%2 == 0) 
+	{
+		return true;
+	} 
+	else 
+	{
+		return false;
+	}
+
+}
+public boolean isMultiple()
+{
+	if (num2%num1 == 0) 
+	{
+		return true;
+	} 
+	else 
+	{
+		return false;
+	}
+}
+}
+
